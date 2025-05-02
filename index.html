@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Netflix Data Visualizations</title>
+  <link rel="stylesheet" href="styles/style.css">
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+</head>
+<body>
+  <h1>Netflix Data Visualizations</h1>
+
+  <!-- Media + Docs -->
+  <section id="media">
+    <h2>Overview Video</h2>
+    <p>
+      <a href="https://youtu.be/SA-Fc1zud0s"
+         target="_blank"
+         rel="noopener">
+        ▶ Watch Overview Video on YouTube
+      </a>
+    </p>
+    <button
+      id="docs-button"
+      onclick="window.location.href='docs.html';"
+      style="
+        border-radius: 50%;
+        width: 50px;
+        height: 50px;
+        font-size: 14px;
+        cursor: pointer;
+      ">
+      Docs
+    </button>
+  </section>
+
+  <!-- Bar chart -->
+  <section>
+    <h2>Titles by Country (Top 10)</h2>
+    <div id="chart1"></div>
+  </section>
+
+  <!-- Pie charts -->
+  <section>
+    <h2>Ratings Distribution</h2>
+    <div id="pie-movie" class="subchart"></div>
+    <div id="pie-tv" class="subchart"></div>
+  </section>
+
+  <!-- Line chart -->
+  <section>
+    <div id="chart3"></div>
+  </section>
+
+  <!-- Tooltip container -->
+  <div id="tooltip" class="tooltip"></div>
+
+  <script src="scripts/main.js"></script>
+</body>
+</html>

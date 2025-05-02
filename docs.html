@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Documentation</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <nav>
+    <a href="index.html">← Back to Visualizations</a>
+  </nav>
+
+  <main>
+    <h1>Documentation</h1>
+
+    <section id="dataset">
+      <h2>Dataset</h2>
+      <p>
+        Bansa, S. (n.d.). <em>Netflix Movies and TV Shows</em> [Data set]. Kaggle. Retrieved April 30, 2025, from
+        <a href="https://www.kaggle.com/datasets/shivamb/netflix-shows" target="_blank" rel="noopener">
+          https://www.kaggle.com/datasets/shivamb/netflix-shows
+        </a>
+      </p>
+      <p>
+        This dataset showed the movies and TV shows on Netflix. It included year made, seasons aired, year added, country, ratings, etc.
+      </p>
+    </section>
+
+    <section id="first-visualization">
+      <h2>First Visualization</h2>
+      <p>
+        After South Korean successes in shows on Netflix, I was curious to see how content creation for Netflix was diversified in its titles for streaming. I wanted to know who the main contributors to Netflix titles were. Originally, I had total counts for all countries. The chart was too cluttered with countries on the x-axis to be of any use. I opted to switch to the top 10 countries in Netflix content only for the visualization.
+      </p>
+      <p>
+        I decided to separate TV shows from movies in the count and turned it into a stacked bar chart with countries on the x-axis and count of titles as the y-axis. This visualization shows the total TV shows and movies that the countries have on Netflix. If you scroll over the blue section, it gives you the count of movies on Netflix from that country. Orange is the TV shows.
+      </p>
+      <p>
+        I expected the United States to have the most titles, but I was unaware how much content India had on Netflix. One other piece of information I noted was that almost all of the countries were movie-dominant. The outliers in this were Japan and South Korea, whose titles were mostly TV shows.
+      </p>
+    </section>
+
+    <section id="second-visualization">
+      <h2>Second Visualization</h2>
+      <p>
+        Originally, I wanted to do a multiple line chart showing the number of movie titles vs TV show titles from 2008 (earliest year added in dataset) to now. I could not get it to look the way I wanted it to, so I decided to ask another question that I was interested in: What is the content rating distribution on Netflix? Does it cater to adults more, or is it more kid-friendly?
+      </p>
+      <p>
+        I created separate pie charts for movies and TV shows. I used stoplight color coding from green to red as the ratings go from TV-Y7 to TV-MA. If you scroll over the portions of the pie chart, they show the count of that rating for titles on Netflix.
+      </p>
+      <p>
+        I was shocked to see that there were more than five times as many rated R or MA titles than there were PG. About half of the TV shows were TV-MA. It appears that Netflix has sections for kids, but the majority of the content is for adults only.
+      </p>
+    </section>
+  </main>
+</body>
+</html>
